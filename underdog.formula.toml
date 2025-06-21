@@ -3,4 +3,4 @@ git_repository = "https://github.com/TwelveFacedJanus/Underdog"
 dependencies = ["cmake", "make"]
 
 [formula]
-install_cmds = ["mkdir Build && cd Build && cmake .. -B && make Build && ./Build/Underdog"]
+install_cmds = ["cmake .. -B Build && make Build && ./Build/Underdog"]
