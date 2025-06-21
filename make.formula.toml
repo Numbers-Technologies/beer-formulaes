@@ -1,0 +1,11 @@
+name = "make"
+git_repository = "https://github.com/mirror/make.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "./bootstrap.sh || true",
+    "./configure",
+    "make",
+    "sudo make install"
+] 

@@ -1,0 +1,9 @@
+name = "gh"
+git_repository = "https://github.com/cli/cli.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "make",
+    "sudo make install"
+] 

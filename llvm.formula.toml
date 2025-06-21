@@ -1,0 +1,10 @@
+name = "llvm"
+git_repository = "https://github.com/llvm/llvm-project.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "cmake -S llvm -B build -DLLVM_ENABLE_PROJECTS='clang' -G 'Unix Makefiles'",
+    "cmake --build build",
+    "sudo cmake --install build"
+] 

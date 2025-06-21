@@ -1,0 +1,11 @@
+name = "python2"
+git_repository = "https://github.com/python/cpython.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "git checkout 2.7",
+    "./configure",
+    "make",
+    "sudo make install"
+] 

@@ -1,0 +1,10 @@
+name = "cmake"
+git_repository = "https://github.com/Kitware/CMake.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "./bootstrap",
+    "make",
+    "sudo make install"
+] 

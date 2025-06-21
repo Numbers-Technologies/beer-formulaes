@@ -1,0 +1,10 @@
+name = "python3"
+git_repository = "https://github.com/python/cpython.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "./configure",
+    "make",
+    "sudo make install"
+] 

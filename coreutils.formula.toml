@@ -1,0 +1,11 @@
+name = "coreutils"
+git_repository = "https://github.com/coreutils/coreutils.git"
+dependencies = []
+
+[formula]
+install_cmds = [
+    "./bootstrap",
+    "./configure",
+    "make",
+    "sudo make install"
+] 
