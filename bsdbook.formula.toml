@@ -3,4 +3,4 @@ git_repository = "https://github.com/TwelveFacedJanus/BSDBook.git"
 dependencies = ["make"]
 
 [formula]
-install_cmds = ["make install"]
+install_cmds = ["make", "make install"]
