@@ -1,0 +1,6 @@
+name = "Underdog"
+git_repository: "https://github.com/TwelveFacedJanus/Underdog"
+dependencies = ["cmake", "make"]
+
+[formula]
+install_cmds = ["mkdir Build", "cd Build", "cmake ..", "make"]
